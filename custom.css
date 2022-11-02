@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Carrois+Gothic&family=Montserrat:wght@400;600&family=Poppins:wght@300;400;500;600;700;800;900&family=Red+Rose:wght@300;400;500;600;700&family=Saira+Stencil+One&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("media/monas.jpg");
+    background-size: cover;
+    background-position: 0% 10%;
+}
+body{
+    font-family: "Barlow", sans-serif; 
+}
+.navbar{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 320px;
+    cursor: pointer;
+    left: 100%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-family: 'Red Rose', cursive;
+    font-size: 15px;
+    padding: 15px;
+}
+.navbar ul li a:hover{
+    color: #B79FFC;
+    padding: 15px;
+    transition: 0.5s;
+}
+.navbar ul li a::after{
+    content:'';
+    height: 2px;
+    width: 0;
+    left: 0;
+    margin: auto;
+    display: block;
+    background:#B79FFC;
+    transition: 0.25s; 
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+.c-banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 180px 0;
+}
+.c-banner-container h1{
+    font-family: "Saira Stencil One", cursive;
+    margin-bottom: 12px;
+}
+.c-banner-container p{
+    font-size: 22px;
+    margin-bottom: 36px;
+    font-family: "Barlow", sans-serif;
+    color: white;
+}
+.btn-regist{
+    font-family: "Barlow", sans-serif;
+    color: white;
+    padding: 15px 30px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+}
+.kata marquee{
+    padding: 15px;
+    background-color: #031657;
+    height: 60px;
+    align-items: center;
+}
+.kata marquee p{
+    font-size: large;
+    color: white;
+    align-items: center;
+    bottom: auto;
+}
+.c-presenter{
+    padding-top: 70px;
+    font-family: "roboto";
+}
+.c-presenter-container h2{
+    font-size: 34px;
+    text-align: center;
+    color: #1e276d;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+.c-presenter-table{
+    color: black;
+    padding-top: 24px;
+}
+.c-presenter-table thead tr th{
+    background-color: #5e30dd;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 12px 18px;
+}
+.c-presenter-table tbody tr td{
+    padding: 20px 15px;
+}
+.important-dates{
+    padding-top: 70px;
+}
+.c-presenter{
+    padding-top: 70px;
+}
+.c-presenter-container h2{
+    font-size: 34px;
+    text-align: center;
+    color: #1e276d;
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+.c-presenter-table{
+    color: black;
+    padding-top: 24px;
+}
+.c-presenter-table thead tr th{
+    background-color: #5e30dd;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 12px 18px;
+}
+.c-presenter-table tbody tr td{
+    padding: 20px 15px;
+}
+.selamat-container{
+    padding: 30px 0;
+}
+.selamat{
+    padding: 10px;
+    color: #1e276d;
+    border: 3px solid #d35dd5;
+}
+.selamat p{
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Barlow", sans-serif;
+}
+.scopus-container{
+    padding: 30px 0;
+}
+.scoptext{
+    padding: 10px;
+    color: white;
+    background-color: #5E30DD;
+    border-radius: 10px;
+    align-items: center;
+    right: 50%;
+    font-weight: bold;
+    font-family: "Barlow", Sans-serif;
+    font-size: 30px;
+}
+.scoptext p{
+    text-align: left;
+}
+.scopimg{
+    width: 1px;
+}
+.wrapper-konten{
+    margin: 0 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.isitext{
+    font-family: 'poppins';
+    background-color: #cfdeff;
+    padding: 32px;
+    border-radius: 10px;
+    width: 880px;
+}
+.isitext h2{
+    color: #2075dd;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.isitext p{
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+.row{
+    padding: 42px 0 42px 0
+}
+.footer p{
+    font-weight: bold; 
+    margin-top: 30px;
+}
+.copyright{
+    text-align: center; 
+    font-size: 13px; 
+    background-color: #07062D; 
+    color: white; 
+    padding: 20px 0 20px 0;
+}
